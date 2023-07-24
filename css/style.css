@@ -159,3 +159,144 @@ section {
         box-shadow: 0px 6px 4px 0px #0C70F240;
         cursor: pointer;
     }
+
+    /* Footer */
+
+    footer {
+        background-color: var(--azul-dnc);
+        width: 100%;
+    }
+
+    footer .linha1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 330px;
+    }
+
+    footer h5 {
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+        font-family: var(--fonte-padrao);
+        background-color: var(--preto-dnc);
+        border-radius: 10px;
+        padding: 10px;   
+    }
+
+    footer ul li {
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: var(--fonte-padrao);
+        margin: 15px 0px 25px 0px;
+    }
+
+    footer ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    footer ul li a:hover {
+        color: var(--cinza-hover);
+    }
+
+    footer .endereco {
+        font-family: var(--fonte-padrao);
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        width: 20%;
+    }
+
+    footer .linha2 {
+        display: flex;
+        height: 35px;
+        justify-content: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    footer .linha2 a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: var(--fonte-padrao);
+        color: white;
+        padding: 5px;
+    }
+
+    footer .linha2 a:first-child {
+        border-right: 2px solid white;
+    }
+
+    footer .linha2 a:hover {
+        color: var(--cinza-hover);
+    }
+
+    @media only screen and (max-width: 600px){
+        
+        /* Menu */
+        #principal {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+
+        #menu {
+            flex-direction: column;
+            width: 100%;
+            margin: 0;
+        }
+
+        #menu a {
+            display: flex;
+            height: 50px;
+            align-items: center;
+        }
+
+        #principal button {
+            width: 100%;
+            margin: 0px;
+        }
+
+        /* Section */
+
+        section h1 {
+            font-size: 38px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        form {
+            width: 95%;
+            font-size: 20px;
+        }
+
+        form .checkbox-itens label {
+            font-size: 15px;
+        }
+
+        /* Footer */
+
+        
+    }
