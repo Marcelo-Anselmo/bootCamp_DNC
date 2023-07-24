@@ -298,5 +298,14 @@ section {
 
         /* Footer */
 
+        footer .linha1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer .endereco {
+            width: 95%;
+            margin-bottom: 20px;
+        }
         
     }
